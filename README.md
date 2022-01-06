@@ -1,16 +1,29 @@
 # the_guardian_app
 
-A new Flutter project.
+### Descripción
 
-## Getting Started
+App de noticias consumiendo la API del portal "The guardian".
 
-This project is a starting point for a Flutter application.
+La desarrollé para la prueba técnica solicitada por NaranjaX
+<hr>
 
-A few resources to get you started if this is your first Flutter project:
+### Pantallas
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+  - Pantalla de inicio: muestra un feed con las ultimas noticias publicadas por el portal  
+  - Detalle de la notcia: muestra el desarrollo de la noticia con un imagenes y detalles de la misma  
+  - Menu de opciones: muestra links a difentes categorias de noticias
+<hr>
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Detalles técnicos:
+
+  - Para gestor del estado usé Provider
+  - Conexión a la api con el paquete HTTP
+  - Fuente personalizada original de "The guardian"
+  - Para renderizar el html y css utilicé Flutter_html
+<hr>
+
+### Screenshots:
+
+![image](https://drive.google.com/uc?export=view&id=1nnfPsPmu6Jq0Z6m-rHh0SQZblDi_Jnyd)
+![image](https://drive.google.com/uc?export=view&id=1oHVWUHwzsMUUvx8ZAm8moLtJ0AkyQfWO)
+![image](https://drive.google.com/uc?export=view&id=1Dke4tlorxNyCNqp4dRun059ec0ptmeQj)
