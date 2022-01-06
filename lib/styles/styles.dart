@@ -1,0 +1,1 @@
+export 'package:the_guardian_app/styles/colores.dart';
